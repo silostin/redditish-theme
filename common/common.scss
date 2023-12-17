@@ -167,3 +167,53 @@ body {
 .body-page {
   @include custom-card;
 }
+
+
+******
+.d-header-icons .icon .d-icon {
+    font-size: var(--font-up-3);
+}
+.d-header-icons .d-icon {
+    color: var(--secondary);
+}
+.header-sidebar-toggle button .d-icon {
+    font-size: var(--font-up-3);
+    color: var(--secondary);
+}
+.search-menu .search-input, .search-menu-container .search-input {
+    border: 0px solid var(--primary-400);
+}
+.search-menu .searching a.show-advanced-search .d-icon, .search-menu .searching a.clear-search .d-icon, .search-menu-container .searching a.show-advanced-search .d-icon, .search-menu-container .searching a.clear-search .d-icon {
+    color: var(--header_background);
+}
+.category-list tbody .latest {
+    padding: 0 10px 10px 5px;
+}
+.category-list.with-topics {
+    margin-left: 0px;
+}
+.categories-and-latest, .categories-and-top, .category-list {
+	border: 0px solid var(--redditish-border-color);
+}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.list-cell, .category-list td, .category-list th, .table-heading {
+    padding: 10px 5px;
+    color: var(--primary-med-or-secondary-high);
+}
+.category-list tbody .category h3 {
+    font-size: var(--font-up-1);
+}
+.custom-post-bar-contents {
+    border: 0px solid var(--redditish-border-color);
+}
+.navigation-categories .category-list.subcategory-list {
+    margin-top: 1em;
+}
+.list-cell, .category-list td, .category-list th, .table-heading {
+    padding: 5px 0 10px 10px;
+    color: var(--primary-med-or-secondary-high);
+}
