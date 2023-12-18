@@ -193,7 +193,7 @@ body {
     margin-left: 0px;
 }
 .categories-and-latest, .categories-and-top, .category-list {
-	border: 6px solid var(--secondary);
+	border: 6px solid var(--primary-very-low);
 }
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
@@ -215,7 +215,7 @@ body {
     color: var(--primary-med-or-secondary-high);
 }
 .discourse-no-touch .categories-and-latest:hover, .discourse-no-touch .categories-and-top:hover, .discourse-no-touch .category-list:hover {
-    border: 6px solid var(--redditish-border-highlight-color);
+    border: 6px solid var(--d-hover);
 }
 .custom-post-bar-contents {
     /* border-radius: .25em; */
@@ -223,4 +223,8 @@ body {
 }
 a:visited {
     color: var(--primary_medium);
+}
+.custom-post-bar-contents {
+    /* border-radius: .25em; */
+    /* border: 1px solid var(--redditish-border-color); */
 }
