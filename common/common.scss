@@ -169,16 +169,17 @@ body {
 }
 
 
-******
+/*new stuff*/
+
 .d-header-icons .icon .d-icon {
     font-size: var(--font-up-3);
 }
 .d-header-icons .d-icon {
-    color: var(--secondary);
+    color: var(--tertiary);
 }
 .header-sidebar-toggle button .d-icon {
     font-size: var(--font-up-3);
-    color: var(--secondary);
+    color: var(--tertiary);
 }
 .search-menu .search-input, .search-menu-container .search-input {
     border: 0px solid var(--primary-400);
@@ -227,4 +228,14 @@ a:visited {
 .custom-post-bar-contents {
     /* border-radius: .25em; */
     /* border: 1px solid var(--redditish-border-color); */
+}
+:root {
+    --d-max-width: 700px;
+}
+.btn-small, .json-editor-btn-collapse {
+    min-width: 85px;
+}
+.floating-search-input {
+    width: 100%;
+    margin: 0 100px;
 }
