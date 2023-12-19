@@ -191,3 +191,27 @@ body.category,
 .custom-topic-layout_meta-posted-by {
   display: none;
 }
+
+
+
+.category-list-item {
+    margin: 0;
+}
+.category-list .category-name {
+    Margin: 0 0 0.5em;
+}
+.topic-list tbody {
+    gap: 0;
+}
+.categories-list .category-list td {
+    padding: 10px 5px;
+}
+.category-list-item h3, .subcategory-list-item h3 {
+    font-size: var(--font-up-1);
+}
+.topic-list .main-link {
+    font-size: 1.1em;
+}
+.badge-posts {
+    font-size: var(--font-down-1);
+}
